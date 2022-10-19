@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 
+import java.util.List;
+
 public class StartBean implements ApplicationRunner {
 
     @Autowired
@@ -13,6 +15,10 @@ public class StartBean implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        List<User> userList = iUserService.list();
+        int errNumber = 0;
+        for (User user : userList) {
 
+        }
     }
 }
