@@ -1,4 +1,4 @@
-package com.example.addresslist.base;
+package com.example.addresslist.baseClass;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.data.domain.Page;

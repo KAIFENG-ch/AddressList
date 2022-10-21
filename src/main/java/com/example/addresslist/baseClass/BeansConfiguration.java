@@ -1,4 +1,4 @@
-package com.example.addresslist.base;
+package com.example.addresslist.baseClass;
 
 import lombok.extern.slf4j.Slf4j;
 import io.swagger.annotations.ApiOperation;

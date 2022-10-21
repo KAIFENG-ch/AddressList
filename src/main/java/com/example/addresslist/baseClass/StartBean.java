@@ -1,4 +1,4 @@
-package com.example.addresslist.base;
+package com.example.addresslist.baseClass;
 
 import com.example.addresslist.entity.User;
 import com.example.addresslist.service.IUserService;
